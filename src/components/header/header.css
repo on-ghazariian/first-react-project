@@ -1,0 +1,15 @@
+#headContacts{
+    display: flex;
+    align-items: center;
+    color: #7C7C86;
+    width: 100%;
+    justify-content: end;
+    gap: 40px;
+}
+
+.headerDov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
