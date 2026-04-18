@@ -21,8 +21,24 @@ function Header() {
                 height:'16px',
             }}/>
           <p>AM</p>
-          <i class="fa-solid fa-chevron-down"></i>
+          <i class="fa-solid fa-chevron-down" style={{
+            fontSize: "10px",
+          }}></i>
         </div>
+      </div>
+      <div className="bottomHeader">
+            <img src="https://want.am/wp-content/uploads/2024/11/logo.png" alt="logo"  id="logo"/>
+            <div id="katalog">
+                <i class="fa-solid fa-border-all" id="icc"></i>
+                <p>Կատալոգ</p>
+                <i class="fa-solid fa-chevron-down" id="downI"></i>
+            </div>
+
+            <div id="searchDiv">
+                <i class="fa-brands fa-sistrix"></i>
+                <input type="text" id="search" placeholder="Փնտրել նվեր"/>
+            </div>
+          
       </div>
     </>
   );

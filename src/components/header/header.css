@@ -1,4 +1,4 @@
-#headContacts{
+#headContacts {
     display: flex;
     align-items: center;
     color: #7C7C86;
@@ -7,9 +7,61 @@
     gap: 40px;
 }
 
-.headerDov{
+.headerDov {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+#logo {
+    width: 142px;
+    height: 37px;
+}
+
+.bottomHeader {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#katalog {
+    display: flex;
+    align-items: center;
+    background-color: #7776e5;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 18px;
+    height: 45px;
+    gap: 8px;
+    font-family: "Noto Sans Armenian", sans-serif;
+    margin-left: 15px;
+}
+
+#icc {
+    color: white;
+    font-size: 20px;
+}
+
+#downI {
+    font-size: 10px;
+}
+
+#searchDiv {
+    border: 0.5px solid #e1e1e4;
+    padding: 12px;
+    border-radius: 10px;
+    color: #e1e1e4;
+    font-size: 18px;
+}
+
+#search {
+    width: 560px;
+    border: none;
+    font-size: 16px;
+}
+
+input:focus {
+  outline: none;
 }
