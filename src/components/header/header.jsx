@@ -10,9 +10,9 @@ function Header() {
         </div>
         <div className="headerDov">
           <i class="fa-solid fa-phone"></i>
-          <p>094-092-092</p>
+          <p className="cont">094-092-092</p>
         </div>
-        <div className="headerDov">
+        <div className="flag">
           <img
             src="https://want.am/wp-content/plugins/translatepress-multilingual/assets/images/flags/hy.png"
             alt="flag" style={{
@@ -38,7 +38,25 @@ function Header() {
                 <i class="fa-brands fa-sistrix"></i>
                 <input type="text" id="search" placeholder="Փնտրել նվեր"/>
             </div>
-          
+
+          <div id="icons">
+            <div className="ic">
+              <div className="num">
+                <p>0</p>
+              </div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div className="ic">
+              <div className="num">
+                <p>0</p>
+              </div>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div className="ic">
+              <i class="fa-regular fa-circle-user"></i>
+              <p>Մուտք</p>
+            </div>
+          </div>
       </div>
     </>
   );
