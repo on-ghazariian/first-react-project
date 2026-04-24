@@ -1,0 +1,28 @@
+#infos-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    margin: 70px auto;
+    padding: 0 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.info img {
+    margin-bottom: 20px; 
+}
+
+.info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #1a1a1a;
+    font-weight: 500;
+    max-width: 200px; 
+}
