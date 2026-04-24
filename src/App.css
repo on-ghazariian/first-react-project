@@ -1,3 +1,25 @@
 body{
     padding: 0px 180px;
+    font-family: "Noto Sans Armenian", sans-serif;;
+    
+}
+#bajinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+#h1-nor{
+    border-bottom: 4px solid #7776e5;
+    color: #252525;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h1-pah{
+    color: #A5A6AF;
 }

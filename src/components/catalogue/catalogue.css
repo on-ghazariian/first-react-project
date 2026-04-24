@@ -70,3 +70,26 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.view-more-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px 0;
+}
+
+.view-more-btn {
+  width: 100%;
+  border: none;
+  background-color: #e8eaf6;
+  color: #5c4ebc;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:0.2s ;
+}
+
+.view-more-btn:hover {
+  background-color: #d1d5f0; 
+}
