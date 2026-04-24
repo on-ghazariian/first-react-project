@@ -5,11 +5,11 @@ function Header() {
     <>
       <div id="headContacts">
         <div className="headerDov">
-          <i class="fa-regular fa-envelope"></i>
+          <i className="fa-regular fa-envelope"></i>
           <p>info@want.am</p>
         </div>
         <div className="headerDov">
-          <i class="fa-solid fa-phone"></i>
+          <i className="fa-solid fa-phone"></i>
           <p className="cont">094-092-092</p>
         </div>
         <div className="flag">
@@ -21,7 +21,7 @@ function Header() {
                 height:'16px',
             }}/>
           <p>AM</p>
-          <i class="fa-solid fa-chevron-down" style={{
+          <i className="fa-solid fa-chevron-down" style={{
             fontSize: "10px",
           }}></i>
         </div>
@@ -29,13 +29,13 @@ function Header() {
       <div className="bottomHeader">
             <img src="https://want.am/wp-content/uploads/2024/11/logo.png" alt="logo"  id="logo"/>
             <div id="katalog">
-                <i class="fa-solid fa-border-all" id="icc"></i>
+                <i className="fa-solid fa-border-all" id="icc"></i>
                 <p>Կատալոգ</p>
-                <i class="fa-solid fa-chevron-down" id="downI"></i>
+                <i className="fa-solid fa-chevron-down" id="downI"></i>
             </div>
 
             <div id="searchDiv">
-                <i class="fa-brands fa-sistrix"></i>
+                <i className="fa-brands fa-sistrix"></i>
                 <input type="text" id="search" placeholder="Փնտրել նվեր"/>
             </div>
 
@@ -44,16 +44,16 @@ function Header() {
               <div className="num">
                 <p>0</p>
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i className="fa-regular fa-heart"></i>
             </div>
             <div className="ic">
               <div className="num">
                 <p>0</p>
               </div>
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i className="fa-solid fa-cart-shopping"></i>
             </div>
             <div className="ic">
-              <i class="fa-regular fa-circle-user"></i>
+              <i className="fa-regular fa-circle-user"></i>
               <p>Մուտք</p>
             </div>
           </div>
